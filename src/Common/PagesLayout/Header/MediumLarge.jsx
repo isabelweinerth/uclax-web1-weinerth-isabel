@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
 
 /* Components ---------------------------*/
+import MainMenu from "./MainMenu.jsx";
 import Inset from "../Inset.jsx";
 import SiteLogo from "../SiteLogo/SiteLogo.jsx";
 
@@ -35,7 +35,7 @@ const MediumLargeStyled = styled.div`
         }
     }
 
-    nav.mainMenu {
+    nav {
         text-align: center;
         a {
             width: 80px;

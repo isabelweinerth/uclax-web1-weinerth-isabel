@@ -22,4 +22,4 @@ MainMenu.propTypes = {
     onClick: PropTypes.func,
 };
 
-const MainMenuStyled = styled.div``;
+const MainMenuStyled = styled.nav``;
