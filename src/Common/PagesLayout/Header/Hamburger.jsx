@@ -5,10 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Hamburger = ({ toggle }) => {
-    return;
-    <HamburgerStyled onClick={toggle}>
-        <FontAwesomeIcon icon={faBars} />
-    </HamburgerStyled>;
+    return (
+        <HamburgerStyled onClick={toggle}>
+            <FontAwesomeIcon icon={faBars} />
+        </HamburgerStyled>
+    );
 };
 
 export default Hamburger;
