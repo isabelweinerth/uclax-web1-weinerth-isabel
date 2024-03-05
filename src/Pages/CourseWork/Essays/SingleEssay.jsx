@@ -5,7 +5,7 @@ const SingleEssay = ({ question, children }) => {
     return (
         <SingleEssayStyled>
             <h3>{question}</h3>
-            <div className="content">content</div>
+            <div className="content">{children}</div>
         </SingleEssayStyled>
     );
 };
