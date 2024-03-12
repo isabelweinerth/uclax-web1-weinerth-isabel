@@ -148,6 +148,168 @@ const Essays = () => {
                     </li>
                 </ul>
             </SingleEssay>
+
+            <SingleEssay
+                question={`Essay 5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
+            >
+                <ul>
+                    <li>
+                        In React, linking to resources can be approached in
+                        different ways, and understanding the distinctions
+                        between document-relative and root-relative paths is
+                        essential. Document-relative links, demonstrated through
+                        syntax like ./, involve referencing resources within the
+                        same directory or navigating up levels with ../. This
+                        method is context-dependent, meaning the path changes
+                        based on the current document. Conversely, root-relative
+                        paths in React use the @ symbol and consistently
+                        originate from the root of the folder. Root-relative
+                        paths provide a fixed, persistent path, making them
+                        suitable for scenarios where the resource location is
+                        constant. On the other hand, document-relative paths
+                        offer flexibility, enabling resources to be
+                        self-contained and adaptable to different directory
+                        structures without breaking the link chain. The choice
+                        between these approaches depends on the specific
+                        requirements of the application – fixed paths favor
+                        root-relative links, while dynamic or self-contained
+                        resources benefit from document-relative paths.
+                    </li>
+                </ul>
+            </SingleEssay>
+
+            <SingleEssay
+                question={`Essay 6: What is the difference between jpg, gif, png and svg images?`}
+            >
+                <ul>
+                    <li>
+                        JPEG is a lossy compression format, meaning it
+                        sacrifices some image quality to achieve smaller file
+                        sizes. It uses a compression algorithm that removes
+                        details that are less noticeable to the human eye.It is
+                        suitable for photographs and images with gradients, as
+                        it supports millions of colors. It does not support
+                        transparency. JPEG is not suitable for images that
+                        require a transparent background.
+                    </li>
+
+                    <li>
+                        GIF is a lossless compression format, meaning it retains
+                        all image information. However, it supports a maximum of
+                        256 colors, leading to smaller file sizes compared to
+                        formats like JPEG. It is limited to 256 colors, making
+                        it suitable for simple graphics, logos, and images with
+                        solid colors. GIF supports a single color to be fully
+                        transparent, making it useful for creating simple
+                        animations with transparent backgrounds.
+                    </li>
+
+                    <li>
+                        PNG is a lossless compression format, preserving image
+                        quality without sacrificing details. It uses a different
+                        compression algorithm compared to GIF. It supports
+                        millions of colors, suitable for photographs and images
+                        with complex color variations. PNG supports full alpha
+                        channel transparency, allowing for images with
+                        transparent backgrounds.
+                    </li>
+                    <li>
+                        SVG is a vector graphics format, representing images
+                        using mathematical equations rather than pixels. SVG
+                        images are resolution-independent and can be scaled to
+                        any size without loss of quality. Ideal for logos,
+                        icons, and graphics requiring flexibility in size. SVG
+                        files are plain text and can be edited with a text
+                        editor. They can be manipulated with CSS or JavaScript
+                        and are suitable for animations. Generally smaller
+                        compared to bitmap formats, especially for simple
+                        graphics. However, for highly complex images, file sizes
+                        can be larger than those of JPEG or PNG.
+                    </li>
+                </ul>
+            </SingleEssay>
+
+            <SingleEssay
+                question={`Essay 7: Define the following Agile roles: Product Manager, Product Owner, Business Analyst, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps`}
+            >
+                <ul>
+                    <li>
+                        The Product Manager is responsible for the overall
+                        vision and strategy of the product. They collaborate
+                        with stakeholders, customers, and the development team
+                        to define product goals, prioritize features, and ensure
+                        the product aligns with the business objectives. Product
+                        Managers bridge the gap between business needs and
+                        technical implementation.
+                    </li>
+
+                    <li>
+                        The Product Owner is a crucial role within the Agile
+                        development team. They work closely with the Product
+                        Manager and are responsible for translating high-level
+                        product requirements into actionable tasks. The Product
+                        Owner maintains the product backlog, prioritizes user
+                        stories, and ensures that the team delivers value in
+                        each iteration.
+                    </li>
+
+                    <li>
+                        The Business Analyst plays a key role in understanding
+                        business needs, eliciting and documenting requirements,
+                        and facilitating communication between stakeholders and
+                        the development team. They analyze processes, identify
+                        opportunities for improvement, and contribute to
+                        creating a shared understanding of project goals.
+                    </li>
+
+                    <li>
+                        Scrum Master is a servant-leader who facilitates the
+                        Scrum framework. They help the team understand and
+                        follow Scrum practices, remove impediments, and foster a
+                        collaborative and iterative development environment.
+                        Scrum Masters also work to improve team efficiency and
+                        ensure adherence to Agile principles.
+                    </li>
+
+                    <li>
+                        UX Designers focus on creating a positive and meaningful
+                        user experience for products. They conduct user
+                        research, design interfaces, and ensure that the product
+                        is intuitive and user-friendly. Collaboration with
+                        Product Owners and Developers is crucial to align design
+                        decisions with both business goals and technical
+                        feasibility.
+                    </li>
+
+                    <li>
+                        Developer/Engineer are responsible for implementing the
+                        features and functionality outlined in the user stories.
+                        They write code, follow best practices, and collaborate
+                        with the team to deliver high-quality software.
+                        Developers work closely with other roles to ensure that
+                        technical solutions meet both user and business
+                        requirements.
+                    </li>
+
+                    <li>
+                        QA/SDET professionals are responsible for ensuring the
+                        quality of the software through testing. They design
+                        test cases, automate testing processes, and collaborate
+                        with developers to identify and address issues. QA/SDET
+                        roles play a vital part in maintaining product quality
+                        throughout the development lifecycle.
+                    </li>
+
+                    <li>
+                        DevOps is a culture and set of practices that aim to
+                        bridge the gap between development and operations teams.
+                        DevOps professionals work to automate processes, improve
+                        collaboration, and streamline the delivery of software.
+                        They focus on enhancing the efficiency, reliability, and
+                        speed of the development and deployment pipeline.
+                    </li>
+                </ul>
+            </SingleEssay>
         </EssaysStyled>
     );
 };
