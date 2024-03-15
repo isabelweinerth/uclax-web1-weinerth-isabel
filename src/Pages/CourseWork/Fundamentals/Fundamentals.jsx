@@ -10,13 +10,15 @@ const Fundamentals = () => {
     return (
         <FundamentalsStyled>
             <h2>JavaScript Fundamentals</h2>
-            <ReactComponent title="The Big Lebowski" showDisc={true} />
-            <ReactComponent title="The Princess Bride" showDisc={false} />
-            <ReactComponent title="As Good As It Gets" />
+            <ReactComponent title="Thank you," showDisc={true} />
+            <ReactComponent title="For a great quarter," showDisc={false} />
+            <ReactComponent title="I appreciate it!" />
         </FundamentalsStyled>
     );
 };
 
 export default Fundamentals;
 
-const FundamentalsStyled = styled.div``;
+const FundamentalsStyled = styled.div`
+    color: white;
+`;

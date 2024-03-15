@@ -7,7 +7,7 @@ const Slide = ({ slide }) => {
     return (
         <SlideStyled>
             <img src={image} alt={title} />
-            <p className="legend">Legend 1</p>
+            <p className="legend">Historic Venue </p>
         </SlideStyled>
     );
 };

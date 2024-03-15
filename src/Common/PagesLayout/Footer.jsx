@@ -1,31 +1,27 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 /* Components ---------------------------*/
-import Inset from './Inset.jsx';
-import SiteLogo from './SiteLogo/SiteLogo.jsx';
+import Inset from "./Inset.jsx";
+import SiteLogo from "./SiteLogo/SiteLogo.jsx";
 
 const Footer = () => {
     return (
-        <FooterStyled className='Footer'>
+        <FooterStyled className="Footer">
             <Inset>
                 <div className="logo">
                     <SiteLogo />
                 </div>
-                <h2>
-                    CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and Respect :: Colorado Springs, CO
-                </h2>
-                <div className="copyright">
-                    &copy; 2023. All rights reserved.
-                </div>
+                <h2>The Fillmore. 1805 Geary Blvd, San Francisco, CA 94115.</h2>
+                <div className="copyright">&copy; Since 1954.</div>
             </Inset>
         </FooterStyled>
     );
-}
+};
 
 export default Footer;
 
 const FooterStyled = styled.footer`
-    color: white;
+    color: black;
 
     padding: 20px 0px;
 
@@ -50,5 +46,4 @@ const FooterStyled = styled.footer`
         font-size: 14px;
         color: white;
     }
-
 `;

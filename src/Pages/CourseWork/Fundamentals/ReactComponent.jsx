@@ -6,7 +6,7 @@ const ReactComponent = ({ title, showDisc = false }) => {
             <h3>{title}</h3>
             {showDisc && (
                 <DisclaimerStyled>
-                    Disclaimer: This film is intended for mature audiences.
+                    Disclaimer: This was my first time ever learning code.
                 </DisclaimerStyled>
             )}
         </ReactComponentStyled>
@@ -16,7 +16,8 @@ const ReactComponent = ({ title, showDisc = false }) => {
 export default ReactComponent;
 
 const ReactComponentStyled = styled.div`
-    border: solid 3px teal;
+    border: solid 3px red;
+    color: white;
     padding: 20px;
     margin: 30px 0px;
 `;

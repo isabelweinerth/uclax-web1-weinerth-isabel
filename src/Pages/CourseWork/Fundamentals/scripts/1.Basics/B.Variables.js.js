@@ -7,7 +7,7 @@ console.group("Variables");
 
 /*
     A variable is a reference to a value so it can be used over and over,
-    or referenced later on
+    or referenced later on.
 */
 
 // Let can be changed

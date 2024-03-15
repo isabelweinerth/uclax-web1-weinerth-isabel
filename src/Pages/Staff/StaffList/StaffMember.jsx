@@ -30,7 +30,8 @@ StaffMember.propTypes = {
 };
 
 const StaffMemberStyled = styled.div`
-    background-color: #eeeeee;
+    background-color: #871414;
+    color: #eeafaf;
 
     img {
         width: 100%;
@@ -39,11 +40,12 @@ const StaffMemberStyled = styled.div`
 
     .bottom {
         padding: 20px;
+        background-color: #871414;
     }
 
     h3 {
         color: white;
-        background-color: #014444;
+        background-color: #490b0b;
         padding: 5px 10px;
         margin: 0px;
     }

@@ -6,16 +6,17 @@ import { breakpoints } from "@/Common/useMediaQuery";
 const TabContent = ({ curTab }) => {
     const { title, image, text } = curTab;
 
-    return;
-    <TabContentStyled>
-        <div className="column1">
-            <img src={image} alt={title} />
-        </div>
+    return (
+        <TabContentStyled>
+            <div className="column1">
+                <img src={image} alt={title} />
+            </div>
 
-        <h3>{title}</h3>
+            <h3>{title}</h3>
 
-        <div dangerouslySetInnerHTML={{ __html: text }} />
-    </TabContentStyled>;
+            <div dangerouslySetInnerHTML={{ __html: text }} />
+        </TabContentStyled>
+    );
 };
 
 export default TabContent;
@@ -27,7 +28,7 @@ TabContent.propTypes = {
 
 const TabContentStyled = styled.div`
     padding: 20px;
-    background-color: teal;
+    background-color: #490b0b;
 
     @media ${breakpoints.isMediumAndUp} {
         display: grid;
@@ -48,7 +49,7 @@ const TabContentStyled = styled.div`
 
     p {
         font-size: 18px;
-        color: #8cc6c6;
+        color: white;
         margin-bottom: 20px;
         line-height: 150%;
     }

@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 /* Images ---------------------------*/
-import logoUrl from "./crossfit-decimate-logo.png";
+import logoUrl from "./logo.png";
 
 const SiteLogo = () => {
     return (
         <SiteLogoStyled className="SiteLogo">
-            <img src={logoUrl} alt="CrossFit Decimate Logo" />
+            <img src={logoUrl} alt="Logo" />
         </SiteLogoStyled>
     );
 };
@@ -15,7 +15,7 @@ const SiteLogo = () => {
 export default SiteLogo;
 
 const SiteLogoStyled = styled.div`
-    color: #13bbbb;
+    color: #871414;
     width: 100%;
     height: 100%;
 

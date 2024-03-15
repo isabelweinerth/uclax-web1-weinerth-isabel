@@ -11,6 +11,7 @@ const MainMenu = ({ onClick }) => {
             <NavLink to={"/staff"}>Staff</NavLink>
             <NavLink to={"/contact"}>Contact</NavLink>
             <NavLink to={"/course-work"}>Course</NavLink>
+            <NavLink to={"/calendar"}>Calendar</NavLink>
         </MainMenuStyled>
     );
 };
@@ -22,4 +23,6 @@ MainMenu.propTypes = {
     onClick: PropTypes.func,
 };
 
-const MainMenuStyled = styled.nav``;
+const MainMenuStyled = styled.nav`
+    background-color: #871414;
+`;
