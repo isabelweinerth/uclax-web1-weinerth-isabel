@@ -8,7 +8,7 @@ const MainMenu = ({ onClick }) => {
             <NavLink to={"/"} end>
                 Home
             </NavLink>
-            <NavLink to={"/staff"}>Staff</NavLink>
+            <NavLink to={"/staff"}>Gallery</NavLink>
             <NavLink to={"/contact"}>Contact</NavLink>
             <NavLink to={"/course-work"}>Course</NavLink>
             <NavLink to={"/calendar"}>Calendar</NavLink>

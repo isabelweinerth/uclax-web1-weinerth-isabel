@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Accolades from "./Accolades/Accolades";
 
 const StaffMember = ({ member }) => {
-    const { name, image, yearStarted, accolades } = member;
+    const { name, image, yearPlayed, accolades } = member;
 
     return (
         <StaffMemberStyled>
@@ -13,10 +13,8 @@ const StaffMember = ({ member }) => {
 
             <div className="bottom">
                 <p>
-                    <b> Year Started:</b> {yearStarted}
+                    <b> Year Played:</b> {yearPlayed}
                 </p>
-
-                <Accolades accolades={accolades} />
             </div>
         </StaffMemberStyled>
     );
